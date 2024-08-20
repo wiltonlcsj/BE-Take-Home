@@ -13,8 +13,8 @@ Given the rows and columns, we must identify which type is (text, numeric) and t
 |-|-|-|
 |\<B4>|Numeric|80000|
 |\<B5>|Numeric|20000|
-|\<C4>|Numeric|\<B4>+1.04|
-|\<C5>|Numeric|\<B5>+1.05|
+|\<C4>|Numeric|\<B4>*1.04|
+|\<C5>|Numeric|\<B5>*1.05|
 |\<C6>|Numeric|\<C4>+\<C5>|
 |\<C8>|Numeric|if (\<C4> <= 100000, \<C4>*0,75,  \<C4>*0,7)|
 |\<C9>|Numeric|\<B9>|
