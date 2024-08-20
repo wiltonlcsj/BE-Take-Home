@@ -30,7 +30,7 @@ If the cells contains a formula, and that formula it's a format it's like a cell
 \
 Using the tokens and formulas we can generate a dependency graph for the spreadsheet itself, where the nodes are the token values, in that way, every node token that contains a formula must depends of one or multiple nodes needed for that evaluation must be connected with a edge. Below it's a example for August projection tokens processed in dependency graph:
 \
-![](https://beta.appflowy.cloud/api/file_storage/e8b42608-0d7d-46a1-91ae-7b1037fa5354/v1/blob/4c6af54d%2Dc2e2%2D439e%2Daf79%2D1bf9d9393fba/7770846240582895419.png)
+![](graph.png)
 After the processing, we will have a dependency graph that contains decomposed formulas and current value nodes. If we want to know the values  of projections we could just look to the nodes values, if we change any node value all nodes that depends on that node must be recalculated through the formulas, if we want to change the formula itself we could just change the edge and recalculate the nodes.
 \
 ### 2.2 If we cannot get projections cells formula
