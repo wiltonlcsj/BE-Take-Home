@@ -18,7 +18,7 @@ Given the rows and columns, we must identify which type is (text, numeric) and t
 |\<C6>|Numeric|\<C4>+\<C5>|
 |\<C8>|Numeric|if (\<C4> <= 100000, \<C4>*0,75,  \<C4>*0,7)|
 |\<C9>|Numeric|\<B9>|
-|\<C10>|Numeric|if(\<C4><=100000, \<C6>0,2, \<C6>0,25)|
+|\<C10>|Numeric|if(\<C4><=100000, \<C6>*0,2, \<C6>*0,25)|
 |\<C11>|Numeric|sum(\<C8>:\<C10>)|
 |\<C13>|Numeric|\<C6>-\<C11>|
 
